@@ -168,26 +168,6 @@ e:AddTextBox('Only Chars', nil, false, 4, function(a) print(a) end)
 e:AddSeparateBar()
 e:AddDropdown('Testing Dropdown', {'opt1','opt2','opt3'}, 'opt2', function(a) print(a) end)
 
--- Watermark setup
-te:UpdateValue(true)
-local ms = library.ms or 'hehe wha'
-
-spawn(function()
-    while wait(1) do
-        local fps = library.fps
-        local t = ''
-        if #fps < 2 then
-            t = 'FPS: '..'0'..fps..' | MS: '..ms
-        else
-            t = 'FPS: '..fps..' | MS: '..ms
-        end
-        watermark:ChangeText('i '..t)
-    end
-end)
-
-wait(4)
-wait(2)
-watermark:Visible(true)
 ```
 
 ---
