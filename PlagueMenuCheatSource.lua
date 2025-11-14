@@ -560,6 +560,8 @@ PCR_1.ResetOnSpawn = false
 
 MAIN.Name = "MAIN"
 MAIN.Parent = PCR_1
+MAIN.Active = true
+MAIN.Draggable = true
 MAIN.AnchorPoint = Vector2.new(0.5, 0.5)
 MAIN.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 MAIN.BorderSizePixel = 0
