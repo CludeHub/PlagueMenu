@@ -7,7 +7,7 @@ A full-featured Roblox UI library with multiple windows, sections, and interacti
 ## Installation
 
 ```lua
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/oShyyyyy/Plaguecheat.cc-Roblox-Ui-library/main/Source.lua", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/PlagueMenu/refs/heads/main/PlagueMenuCheatSource.lua", true))()
 ```
 
 ---
@@ -133,7 +133,7 @@ end)
 ## Full Example
 
 ```lua
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/oShyyyyy/Plaguecheat.cc-Roblox-Ui-library/main/Source.lua", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/PlagueMenu/refs/heads/main/PlagueMenuCheatSource.lua", true))()
 
 local Legit = library:AddWindow('Legit')
 local Rage = library:AddWindow('Rage')
